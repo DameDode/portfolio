@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Damjan</title>
+
+    <link rel="icon" type="png|image" href="/IMAGES/document.png">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+
+    <canvas id="matrixCanvas"></canvas>
+                                                        <!-- Matrix -->
+    <script src="/JAVASCRIPT/matrix.js"></script>
+
+    <header class="header">
+        <a href="#" class="logo">{Portfolio} </a>
+
+        <nav class="navbar">
+            <a href="#home" class="nav-link" style="--i:1;" class="active">Home</a>
+            <a href="#about" class="nav-link" style="--i:2;">About</a>
+            <a href="#skill" class="nav-link" style="--i:3;">Skills</a>
+            <a href="#project" class="nav-link" style="--i:4;">Projects</a>
+            <a href="#contact" class="nav-link" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+
+        <div class="home-content" data-scroll data-scroll-speed="-5" >
+            <h3 class="mu">Hello, It's me</h3>
+            <h1>Damjan Dodevski</h1>
+            <h3>And I'm a <span class="pro-text">
+                <script>
+                   var typed = new Typed(".pro-text", {
+                      strings: [
+                        "Ethical Hacker",
+                        "Software Developer",
+                        "Programmer",
+                        "Linux Administrator",
+                        "Footballer",
+                        "Project Manager"
+                      ],
+                      typeSpeed: 100,
+                      backSpeed: 100,
+                      backDelay: 1000,
+                      loop: true
+                    });
+                </script>
+            </span></h3>
+
+            <p>  &emsp; &emsp;This portfolio highlights my passion for cybersecurity and my commitment to ethical practices. <br> <br>
+                &emsp; &emsp;I have acquired fundamental knowledge and skills in various areas of ethical hacking,
+                allowing me to contribute to the security of organizations and individuals. <br> <br>
+                &emsp; &emsp;Successfully assessed and fortified network security measures, identifying vulnerabilities and enhancing defenses against potential threats.
+            </p>
+
+            <div class="home-sci">
+                <a href="https://github.com/DameAeternus" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/damjan-dodevski-575467145/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.instagram.com/damjan_dodevski/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            </div>
+           <a href="https://raw.githubusercontent.com/DameAeternus/cv/refs/heads/master/CV.pdf" class="btn-box" download="Damjan CV/Resume">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="/IMAGES/0xd.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div id="about" class="section">
+        <h2>About Me</h2><br>
+        <p>
+            &emsp; &emsp;I am Damjan Dodevski, a passionate cybersecurity analyst and penetration tester currently studying at the Faculty of Computer Science and Engineering in Skopje. My journey in tech began with a fascination for how systems operate and the challenges of keeping them secure. I have developed a strong foundation in ethical hacking, web development, and database management through both academic studies and practical experience.
+            <br><br>
+            &emsp; &emsp;My expertise spans various domains including web application security, where I utilize tools like Burp Suite and OWASP ZAP to identify vulnerabilities. I have also performed internal penetration testing, focusing on Active Directory security assessments using advanced tools such as Crackmapexec and Bloodhound.
+            <br><br>
+            &emsp; &emsp;In addition to my technical skills, I am proficient in several programming languages including HTML, CSS, JavaScript, and Python, which I apply in projects ranging from web applications to automation scripts. I thrive in collaborative environments and enjoy participating in hackathons, where I’ve successfully led teams to innovate and solve real-world problems.
+            <br><br>
+            &emsp; &emsp;Outside of work, I have a diverse range of interests. I enjoy playing football, traveling to new places, and engaging in strategic games like chess. These activities not only help me unwind but also foster my analytical and strategic thinking skills. I believe that continuous learning is essential, and I regularly engage with online courses and community challenges to stay updated with the latest trends in cybersecurity.
+           </p></div>
+
+    <div id="skill" class="section">
+        <h2>Skills</h2>
+        <h3>Web Development:</h3>
+        <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>.NET MVC/Web Forms</li>
+            <li>Java Spring</li>
+        </ul>
+
+        <h3>Database Management:</h3>
+        <ul>
+            <li>SQL</li>
+            <li>MongoDB</li>
+        </ul>
+
+        <h3>DevOps:</h3>
+        <ul>
+            <li>Docker</li>
+            <li>Jenkins</li>
+            <li>Kubernetes</li>
+        </ul>
+
+        <h3>Cybersecurity:</h3>
+        <ul>
+            <li>Cryptography</li>
+            <li>Social Engineering and Phishing</li>
+            <li>Malware and Exploitation</li>
+            <li>Security Architecture and Design</li>
+            <li>Threat Intelligence</li>
+            <li>Digital Forensics</li>
+            <li>DAST Tools: OWASP ZAP, Burp Suite Professional</li>
+        </ul>
+    </div>
+
+
+    <div id="project" class="section">
+        <h2>Projects</h2><br><br>
+
+        <h3>Hackathon Project</h3><br><br>
+        <p>
+            Managed and coordinated a 5-member cross-functional team in a hackathon to scrape and analyze podcasts for improved accessibility.
+            Implemented Whisper for accurate and efficient transcription, resulting in a 50% reduction in manual transcription time and improved data accuracy for analysis.
+            Spearheaded the adoption of Cohere for advanced encoding capabilities, optimizing data processing speed by 70% and enabling real-time insights for decision-making.
+            Reduced search and analysis time by 60% using Qdrant, enabling faster access to relevant podcast data for enhanced productivity.
+            Enabled easier access to podcasts, promoting inclusivity and accessibility for a broader audience.
+        </p><br><br>
+
+        <h3>Network Scanner App</h3><br><br>
+        <p>
+            Built a network scanner web app using React for UI and Python for port scanning.
+            Enhanced user efficiency by reducing the input-to-results time by 40%, allowing users to quickly obtain the network scan results for a given IP and specified ports.
+            Empowered users to efficiently monitor and secure their network, enhancing their understanding and control of network activity.
+        </p><br><br>
+
+        <h3>Job Application Tracker</h3><br><br>
+        <p>
+            Developed a web app for tracking job applications.
+            Integrated a Google Chrome extension to sync LinkedIn job details, reducing data entry time by 40%.
+            Streamlined the application process by enabling one-click transfer of job details to the tracker.
+            Improved user efficiency and organization in managing job applications.
+            Demonstrated technical proficiency in full-stack development and browser extension integration.
+        </p><br><br>
+
+        <h3>GitHub Projects</h3><br><br>
+        <ul>
+            <li>
+                <a href="https://github.com/DameAeternus/bugbountyscript" target="_blank">Bug Bounty Script</a>: A Python script for automating bug bounty tasks.
+            </li>
+            <li>
+                <a href="https://github.com/DameAeternus/LinuxPrivEsc" target="_blank">Linux Privilege Escalation Scripts</a>: A collection of scripts for privilege escalation on Linux systems.
+            </li>
+            <li>
+                <a href="https://github.com/DameAeternus/proekt_kiii" target="_blank">DevOps Project</a>: A project focused on Docker and Kubernetes.
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div id="contact" class="section">
+        <h2>Contact Me</h2><br>
+        <form action="https://formspree.io/f/xyzgrlen" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll('.section');
+
+            // Hide all sections initially
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Show the home section by default
+            const homeSection = document.querySelector('#home');
+            homeSection.style.display = 'flex'; // Change from 'block' to 'flex'
+
+            // Add event listeners for each nav link
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent the default anchor behavior
+
+                    // Hide all sections first
+                    sections.forEach(section => {
+                        section.style.display = 'none';
+                    });
+
+                    // Get the target section from the href attribute
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+
+                    // Show the targeted section
+                    if (targetSection) {
+                        targetSection.style.display = 'flex'; // Ensure it's a flex container
+                        targetSection.scrollIntoView({ behavior: 'smooth' }); // Smoothly scroll to the section
+                    }
+                });
+            });
+        });
+
+
+    </script>
+</body>
+</html>
