@@ -780,7 +780,7 @@ body {
         width: 50%; /* Resize for mobile */
         height: auto;
         margin: 0 auto; /* Center the image */
-        display: block;
+        display: none;
     }
 
     .about {
@@ -800,10 +800,11 @@ body {
     #skill {
         padding-left: 0;
         margin-left: 0;
+        text-align: left; /* Ensure it's aligned to the left */
     }
 
     #skill h3, #skill ul, #skill li {
-        padding-left: 0; /* Make sure lists and headings align correctly */
-        margin-left: 0;
+        padding-left: 0; /* Ensure no extra padding */
+        margin-left: 0; /* Ensure no extra margin */
     }
 }
