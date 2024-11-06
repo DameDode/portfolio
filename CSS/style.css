@@ -352,6 +352,7 @@ canvas {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for depth */
     animation: fadeIn 0.5s; /* Apply fade-in animation */
     height: 500px;
+    opacity: 40%;
 }
 
 /* Styling for headings */
@@ -359,6 +360,7 @@ canvas {
     margin-bottom: 20px; /* Spacing below the heading */
     color: white; /* White color for the heading */
     animation: slideTop 0.5s; /* Slide down animation for heading */
+    opacity:100%;
 }
 
 /* Styling for labels */
@@ -367,6 +369,7 @@ canvas {
     font-weight: bold; /* Bold labels for emphasis */
     color: #ffffff; /* White color for labels */
     text-align: left; /* Align text to the left */
+    opacity:100%;
 }
 
 /* Input fields and textarea styling */
@@ -380,6 +383,7 @@ canvas {
     margin-bottom: 15px; /* Space between elements */
     background-color: #333; /* Dark background for inputs */
     color: white; /* White text color */
+    opacity:100%;
 }
 
 /* Focus effect for inputs */
@@ -388,6 +392,7 @@ canvas {
 #contact textarea:focus {
     border-color: #007bff; /* Change border color on focus */
     outline: none; /* Remove outline */
+    opacity:100%;
 }
 
 /* Button styling */
@@ -399,11 +404,13 @@ canvas {
     padding: 10px 20px; /* Padding for the button */
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.3s; /* Smooth transition */
+    opacity:100%;
 }
 
 /* Button hover effect */
 #contact button:hover {
     background-color: #0056b3; /* Darker color on hover */
+    opacity:100%;
 }
 
 /* Add animation to individual elements */
@@ -412,12 +419,14 @@ canvas {
 #contact textarea,
 #contact button {
     animation: slideLeft 0.5s forwards; /* Slide in animation from the left */
+    opacity:100%;
 }
 
 /* Optional: ensure the form elements are not squashed */
 #contact input,
 #contact textarea {
     min-height: 40px; /* Minimum height for inputs */
+    opacity:100%;
 }
 #skill {
     max-width: 600px; /* Full width for the skills section */
