@@ -85,6 +85,7 @@ body {
 .home-content {
     max-width: 600px;
     padding: 50px;
+    margin-top: 170px;
     /* margin-left: -30px; */
 }
 
@@ -316,7 +317,9 @@ canvas {
 #project ul{
     margin-left: 20px;
 }
-
+#project{
+    margin-top:100px;
+}
 /* Heading styles for sections (optional) */
 .section h2,
 .section h3 {
@@ -347,6 +350,7 @@ canvas {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for depth */
     animation: fadeIn 0.5s; /* Apply fade-in animation */
     height: 500px;
+    padding-top: 170px;
 }
 
 /* Styling for headings */
@@ -417,8 +421,8 @@ canvas {
 #skill {
     max-width: 600px; /* Full width for the skills section */
     margin-left: 0px;
-    padding: 50px;
-    padding-left: 225px;
+    padding-top: 150px;
+    padding-left: 155px;
 }
 
 #skill h3 {
@@ -708,6 +712,7 @@ body {
     align-items: center;
     padding: 70px 10% 0;
     margin-top: 10%;
+    padding-top: 100px;
 }
 
 .about-content h3 {
